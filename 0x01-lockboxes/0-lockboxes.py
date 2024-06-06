@@ -3,13 +3,15 @@
 This module contains the canUnlockAll function.
 """
 
+
 def canUnlockAll(boxes):
+
     """
     Determines if all the boxes can be opened.
 
     Args:
-        boxes (list of list of int): A list of lists, where each inner list represents
-                                     the keys contained in a box.
+        boxes (list of list of int): A list of lists,
+               where each inner list represents the keys contained in a box
 
     Returns:
         bool: True if all boxes can be opened, otherwise False.
