@@ -2,8 +2,8 @@
 """
 N Queens Challenge
 
-This script solves the N Queens problem using a backtracking algorithm. The 
-N Queens problem is the challenge of placing N chess queens on an N×N 
+This script solves the N Queens problem using a backtracking algorithm. The
+N Queens problem is the challenge of placing N chess queens on an N×N
 chessboard so that no two queens threaten each other.
 
 Usage:
@@ -43,7 +43,7 @@ def solve_n_queens(n):
     Solve the N Queens problem.
 
     Args:
-        n (int): The size of the chessboard (N x N) and the number of queens to place.
+        n (int): The size of the chessboard (N x N) and the number of queens.
 
     Returns:
         list: A list of solutions, where each solution is represented as a list
@@ -81,10 +81,10 @@ def solve_n_queens(n):
                     goback = True
                     break
                 c += 1
-        
+
         if stop:
             break
-        
+
         if goback:
             r -= 1
             while r >= 0:
